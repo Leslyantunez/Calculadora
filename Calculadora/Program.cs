@@ -10,6 +10,11 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("este es un mensaje de prueba");
+
+            Console.ReadLine();
+
+
         }
     }
 }
