@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +11,33 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("este es un mensaje de prueba");
+            string Nombre; 
+            Nombre = "Lesly oliva";
+            Console.WriteLine("Hola mi nombre es " + Nombre);
 
+            int numeroEntero = 5;
+            double numeroDecimal = 2.5;
+            double suma = 0;
+            double resta = 0;
+            double multiplicacion = 0;
+            double division = 0;
+
+
+            suma = numeroEntero + numeroDecimal;
+            resta = numeroEntero - numeroDecimal;
+            multiplicacion = numeroEntero * numeroDecimal;
+            division = numeroEntero / numeroDecimal;
+
+            double divi1 = 5 / 2;
+            double div2 = 5.0 / 2.0;
+            double div3 = 5.0 / 2;
+
+            Console.WriteLine($"Resultado {divi1} {div2} {div3} ");
+
+            Console.WriteLine($"Resultado de la suma es {suma}");
+            Console.WriteLine($"Resultado de la resta es {resta}");
+            Console.WriteLine($"Resultado de la resta es {multiplicacion}");
+            Console.WriteLine($"Resultado de la resta es {division}");
             Console.ReadLine();
 
 
